@@ -32,7 +32,7 @@ function About() {
               Affiches | Logos | Sites web | Applications mobiles | Vidéos
               professionnelles Boostez votre image avec nous !
             </p>
-            <div class="about-stats reveal active">
+            <div className="about-stats reveal active">
               <div>
                 <h3>10+</h3>
                 <p>Projets réalisés</p>

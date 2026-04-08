@@ -1,12 +1,3 @@
-// ─────────────────────────────────────────────────────────────
-// src/main.jsx
-//
-// Point d'entrée principal de l'application React.
-// Ce fichier est exécuté en premier par Vite.
-// Il monte le composant racine <App /> dans le DOM,
-// à l'intérieur de <AppProvider> pour que le contexte global
-// soit disponible partout dans l'application.
-// ─────────────────────────────────────────────────────────────
 
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -20,7 +11,7 @@ import AppProvider from "./context/AppProvider";
 // Styles globaux de l'application
 import "./styles/global.css";
 
-// ── Montage de l'application ────────────────────────────────
+//  Montage de l'application 
 // React 18 utilise `createRoot` (remplace l'ancien `ReactDOM.render`)
 ReactDOM.createRoot(
   // On cible la div#root définie dans index.html

@@ -9,6 +9,7 @@ import Home     from "./pages/Home";
 import About    from "./pages/About";
 import Contact  from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import GithubSearch from "./pages/GithubSearch";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
 
           {/* Route Contact */}
           <Route path="/contact" element={<Contact />}  />
+          <Route path="/api" element={<GithubSearch />}  />
 
           {/* Route wildcard : capture toutes les URLs non définies ci-dessus.
               Doit toujours être placée EN DERNIER. */}

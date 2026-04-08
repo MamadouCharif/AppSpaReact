@@ -1,14 +1,4 @@
-// ─────────────────────────────────────────────────────────────
-// vite.config.js
-// Configuration Vite pour un projet React SPA avec React Router.
-//
-// ⚠️ Point important : React Router fonctionne côté client.
-// Quand l'utilisateur accède directement à une URL comme /about,
-// le serveur cherche un fichier "about" qui n'existe pas.
-// L'option `historyApiFallback` (dev) et la configuration du serveur
-// (prod) renvoient toujours index.html pour laisser React Router
-// gérer la navigation.
-// ─────────────────────────────────────────────────────────────
+
 
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";

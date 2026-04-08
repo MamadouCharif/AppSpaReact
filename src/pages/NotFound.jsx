@@ -1,14 +1,4 @@
-// ─────────────────────────────────────────────────────────────
-// src/pages/NotFound.jsx
-//
-// Page 404 — affichée pour toute URL non reconnue.
-// Cette page est activée par la route wildcard `path="*"`
-// définie EN DERNIER dans App.jsx.
-//
-// Démontre :
-//   - useLocation() : récupère l'URL qui a causé l'erreur
-//   - useNavigate() : navigation programmatique
-// ─────────────────────────────────────────────────────────────
+
 
 import { useLocation, useNavigate, Link } from "react-router-dom";
 

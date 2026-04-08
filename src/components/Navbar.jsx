@@ -17,6 +17,7 @@ function Navbar() {
       <nav className="navbar__links" aria-label="Navigation principale">
         <NavLink to="/"       end>Accueil</NavLink>
         <NavLink to="/about"     >À propos</NavLink>
+        <NavLink to="/api">API</NavLink>
         <NavLink to="/contact"   >Contact</NavLink>
       </nav>
 
