@@ -10,6 +10,7 @@ import AppProvider from "./context/AppProvider";
 
 // Styles globaux de l'application
 import "./styles/global.css";
+import "./styles/index.css"
 
 //  Montage de l'application 
 // React 18 utilise `createRoot` (remplace l'ancien `ReactDOM.render`)

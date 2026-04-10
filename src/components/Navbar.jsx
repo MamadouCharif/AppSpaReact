@@ -8,8 +8,14 @@ function Navbar() {
   return (
     <header className="navbar">
       {/* Logo / Nom du site */}
-      <NavLink to="/" className="navbar__brand" style={{color: "#FF8C00"}}>
-        <span className="navbar__logo">◈</span>
+      <NavLink to="/" className="navbar__brand" style={{color: "#2D5BE3"}}>
+        <span className="navbar__logo">
+          <img
+            src="src/assets/img/profil1.jpeg" 
+            alt="hero"
+            className="w-6"
+      />
+        </span>
         Massab Digital
       </NavLink>
 
