@@ -21,7 +21,7 @@ function About() {
       <section className="card">
           <div className="about-spac" style={{display: "flex", gap: "30px"}}>
             <div >
-              <img src="src/assets/img/profil1.jpeg" alt="" style={{width: "700px"}} />
+              <img src="src/assets/img/profil1.jpeg" alt="" style={{width: "200px"}} />
             </div>
 
             <div>
